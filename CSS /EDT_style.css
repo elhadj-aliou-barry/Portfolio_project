@@ -1,0 +1,56 @@
+
+div.EDT{
+      border-radius: 8px;
+      width: 100% ;
+}
+table{
+    width: 98% ;
+    background-color: white ;
+    color: black;
+    margin: 2px auto  ;
+    border-radius: 5px;
+}
+th{
+    height: 35px;
+    border: 1px solid;
+
+}
+td{
+    border: solid 1px;
+    width:auto ;
+    height: 35px ;
+    text-align: center;
+}
+td.creneau {
+    background-color: rgb(205, 229, 250);
+    color:black ;
+    font-size: 100%;
+}
+td.cours{
+    background-color: rgb(106, 144, 176);
+    font-weight:400 ;
+}
+td.TD{
+    background-color: rgb(245, 232, 216);
+    color:black
+}
+td.TP{
+    background-color: rgb(158, 247, 217);
+}
+div.legend{
+    display:flex;
+    justify-content: space-around;
+}
+b.legend_square{
+     font-weight: 1400 ;
+     font-size: 130%;
+}
+#mon_EDT{
+    font-family: "Kaushan Script", cursive;
+    font-size: 400%;
+    text-align: center;
+    color:blue ;
+    margin: 0px auto;
+    padding-top: 0px;
+
+}

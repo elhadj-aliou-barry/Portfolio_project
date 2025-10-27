@@ -1,0 +1,302 @@
+@media screen and (max-width:1500px) {
+    div.message_perso{
+        padding: 0px 0px 0px 0px;
+    }
+    #Iam{
+        font-size: 350% ;
+    }
+    #profession{
+        font-size: 200%;
+    }
+    .message_perso{
+        margin-left: 3%;
+    }
+     ul.barre_navigation{
+       font-size: 160%;
+    }
+    #mon_EDT{
+        font-size: 380%;
+    }
+
+}
+@media screen and (max-width:1150px) {
+    div.message_perso{
+        padding: 0px 0px 0px 0px;
+    }
+    #Iam{
+        font-size: 300% ;
+    }
+    #profession{
+        font-size: 180%;
+    }
+    .ma_photo{
+        margin-right: 4%; 
+    }
+     ul.barre_navigation{
+       font-size: 140%;
+   }
+    #mon_EDT{
+        font-size: 350%;
+    }
+    div.portfolio , ul.barre_navigation_bottom {
+        font-size: 150%;
+    }
+}
+@media screen and (max-width:910px) {
+    div.message_perso{
+        padding: 0px 0px 0px 0px;
+    }
+    #Iam{
+        font-size: 230% ;
+    }
+    #profession{
+        font-size: 170%;
+    }
+     ul.barre_navigation{
+       font-size: 120%;
+   }
+   h2.abt_me{
+    font-size: 350%;
+   }
+    div.hobbie{
+        gap: 9%;
+    }
+    #mon_EDT{
+        font-size: 320%;
+    }
+    div.portfolio {
+        font-size: 180%;
+    } 
+    ul.barre_navigation_bottom {
+        font-size: 120%;
+    }
+}
+@media screen and (max-width:790px) {
+    span.hey{
+        font-size: 300%;
+    }
+    #Iam{
+        font-size: 200% ;
+    }
+    
+    #profession{
+        font-size: 170%;
+    }
+    .ma_photo{
+        margin-right: 3%; 
+    }
+     .message_perso{
+        margin-left: 1%;
+    }
+     ul.barre_navigation{
+       font-size: 100%;
+   }
+    #mon_EDT{
+        font-size: 300%; 
+    }
+}
+@media screen and (max-width:750px){
+    section#about_me{
+        width: 95%;
+        margin: 0px auto;
+    }
+    div.hobbie {
+        flex-direction: column;
+        align-items: center;
+        font-size: large;
+        padding: 0px 0px 0px 0px;
+    }
+    div#goal, div#passion {
+        align-items: center;
+        width: 100% ;
+        margin: 0px 0px;
+    }
+}
+@media screen and (max-width:690px) {
+
+    #Iam{
+        font-size: 180% ;
+        padding-left: 50px;
+    }
+    #profession{
+        font-size: 120%;
+    }
+    .ma_photo{
+        margin-right: 1%;
+    }
+    h2.abt_me{
+       font-size: 280%;
+       margin-top: 20px;
+   }
+    div.hobbie{
+        gap: 5%;
+    }
+    #mon_EDT{
+        font-size: 240%;
+        margin: 0px auto;
+    }
+    div.EDT{
+        margin-top: 0px ;
+        padding-top: 0px ;
+    }
+    div.portfolio {
+        font-size: 140%;
+    } 
+    ul.barre_navigation_bottom {
+        font-size: 100%;
+        padding-left:0px ;
+    }
+}
+@media screen and (max-width:560px) {
+    div.bloc_pic {
+        flex-direction: column;
+        padding: 20px 0px 0px 0px ;
+        height: 250px; 
+       }
+    span.hey{
+        font-size: 250%;
+    }
+    .message_perso {
+        display: contents;
+    }
+
+    #Iam{
+        align-self: flex-start;
+        text-align: left;
+        font-size: 270% ;
+        margin: 0px 0px ;
+    }
+    #profession{
+        font-size: 150%;
+    }
+    .ma_photo{ /*on verra pour la photo apres */
+        display: none;
+    }
+    section#about_me{
+        width: 99%;
+        margin: 0px auto;
+    }
+    div.hobbie {
+        flex-direction: column;
+        align-items: center;
+        font-size:smaller;
+        padding: 0px 0px 0px 10px;
+    }
+    /* partie emploie du temps */
+    #mon_EDT{
+        font-size: 200%;
+    }
+    td, td.creneau {
+       font-size:90%;
+    }
+    th {
+        font-size: 90%;
+    }
+    b.legend_square{
+        font-size: 100% ;
+    }
+    section.nav_bar_bottom{
+        justify-content:flex-start;
+        gap: 60px ;
+    }
+    div.portfolio {
+        font-size: 110%;
+    } 
+    ul.barre_navigation_bottom {
+        font-size: 100%;
+        font-weight: bolder;
+    }
+}
+@media screen and (max-width:470px) {
+    .bloc_pic {
+        flex-direction: column;
+        margin-top: 20px ;
+    }
+
+    .message_perso {
+        display: contents;
+    }
+    #Iam{
+        align-self: flex-start;
+        width:100%;
+        font-size: 180% ;
+        margin: 0px 20px ;
+    }
+    #profession{
+        font-size: 120%;
+    }
+    h2.abt_me{
+       font-size: 240%;
+       margin-top: 20px;
+   }
+    div.name_top{
+        display: none ;
+    }
+   ul.barre_navigation{
+       font-size: 100%;
+       gap: 0px ;
+       width:90% ;
+   }
+   section.header_band{
+    margin: 2px auto ;
+   }
+    .ma_photo{ /*on verra pour la photo apres */
+        display: none;
+    }
+    div.EDT{
+        margin-top: 0px;
+    }
+    section#about_me{
+        margin: 0px auto;
+    }
+        /* partie emploie du temps */
+    #mon_EDT{
+        font-size: 160%;
+    }
+    th {
+        font-size: 80%;
+    }
+    td , td.creneau {
+       font-size:70%;
+    }
+    b.legend_square{
+        font-size: 80% ;
+    }
+    section.nav_bar_bottom{
+        justify-content:flex-start;
+        gap: 40px ;
+    }
+    div.portfolio {
+        font-size: 100%;
+    } 
+    ul.barre_navigation_bottom {
+        font-size: 85%;
+        font-weight: bolder;
+    }
+    
+}
+@media screen and ( max-width:390px ) {
+    th {
+        font-size: 70%;
+    }
+    td , td.creneau {
+       font-size:60%;
+    }
+    b.legend_square{
+        font-size: 75% ;
+    }
+     #mon_EDT{
+        font-size: 145%;
+    }
+    section.nav_bar_bottom{
+        justify-content:flex-start;
+        gap: 25px ;
+    }
+    div.portfolio {
+        font-size: 100%;
+    } 
+    ul.barre_navigation_bottom {
+        font-size: 80%;
+        font-weight: bolder;
+    }
+}
