@@ -74,9 +74,6 @@ a.logo_contact:hover {
     font-size: 200%;
     overflow: hidden ;
     white-space: nowrap ;
-    /*animation: 6s beat_fade 0s infinite ease-in-out ;*/
-
-    /*animation: typing 3s steps(22)  infinite alternate-reverse  ;*/
 }
 @keyframes typing {
     from { width: 0ch ; }
